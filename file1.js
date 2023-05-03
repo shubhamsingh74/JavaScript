@@ -6,7 +6,7 @@ console.log('shubham singh');
 var data = 21;
 console.log(data);
 
-var name = "shubham ";
+let name = "shubham ";
 const lastname = "rajput";
 console.log(lastname+name);
 console.log(name);
