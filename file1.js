@@ -10,3 +10,4 @@ var name = "shubham ";
 const lastname = "rajput";
 console.log(lastname+name);
 console.log(name);
+console.log("variables");
