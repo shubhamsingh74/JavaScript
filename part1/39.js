@@ -11,14 +11,14 @@ const value2 = "myvalue2";
 //     objkey2 : "myvalue2",
 // }
 
-// const obj = {
-//     [key1] : value1,
-//     [key2] : value2
-// }
+const obj = {
+    [key1] : value1,
+    [key2] : value2
+}
 
-const obj = {};
+// const obj = {};
 
-obj[key1] = value1;
-obj[key2] = value2;
+// obj[key1] = value1;
+// obj[key2] = value2;
 console.log(obj);
 

@@ -5,18 +5,20 @@ const person = {
     "person hobbies": ["guitar", "sleeping", "listening music"]
 }
 
-// for in loop 
-// Object.keys 
+
+//these are loops used to iterate in objects
+// 1, for in loop 
+// 2, Object.keys 
 
 // for(let key in person){
 //     // console.log(`${key} : ${person[key]}`);
 //     console.log(key," : " ,person[key]);
 // }
 
-// console.log(typeof (Object.keys(person)));
-// const val = Array.isArray((Object.keys(person)));
-// console.log(val);
+console.log(typeof(Object.keys(person)));
+const val = Array.isArray((Object.keys(person)));
+console.log(val);
 
-// for(let key of Object.keys(person)){
-//     console.log(person[key]);
-// }
+for(let key of Object.keys(person)){
+    console.log(person[key]);
+}

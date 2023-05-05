@@ -1,4 +1,4 @@
-// spread operator
+// spread operator // making clone of any array to the new array
 // const array1 = [1, 2, 3];
 // const array2 = [5, 6, 7];
 
@@ -17,7 +17,7 @@ const obj2 = {
   key4: "value4",
 };
 
-// const newObject = { ...obj2, ...obj1, key69: "value69" };
+// const newObject = { ...obj1, ...obj2, key69: "value69" };
 // const newObject = { ...["item1", "item2"] };
-// const newObject = { ..."abcdefghijklmnopqrstuvwxyz" };
-// console.log(newObject);
+const newObject = { ..."abcdefghijklmnopqrstuvwxyz" };
+console.log(newObject);
